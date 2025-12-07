@@ -1,0 +1,13 @@
+{
+  "name": "drmajumdar",
+  "private": true,
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "mkdir -p dist && cp index.html styles.css script.js dr-avtar.png dist/",
+    "deploy": "wrangler pages deploy dist --project-name drmajumdar",
+    "versions": "wrangler versions upload dist --project-name drmajumdar"
+  },
+  "devDependencies": {
+    "wrangler": "^3.87.0"
+  }
+}

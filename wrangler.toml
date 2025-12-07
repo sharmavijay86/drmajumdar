@@ -1,0 +1,5 @@
+name = "drmajumdar"
+pages_build_output_dir = "dist"
+
+# Optional: specify your Cloudflare account ID if you plan to deploy locally.
+# account_id = "YOUR_ACCOUNT_ID"
